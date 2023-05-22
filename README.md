@@ -1,6 +1,6 @@
 # Typescript Learning
 
-# MS Windows - Install Development Tools
+## MS Windows - Install Development Tools
 
 In this guide, we will install the following development tools
 
