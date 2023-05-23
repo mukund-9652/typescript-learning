@@ -102,7 +102,7 @@ That's it! You have successfully installed the development tools: Visual Studio 
 1. If you get the following error when executing tsc command using PowerShell:
 
     ```bash
-    tsc : File C:\Users\johndoe\AppData\Roaming\npm\tsc.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+    tsc : File C:\Users\mukund\AppData\Roaming\npm\tsc.ps1 cannot be loaded because running scripts is disabled on this system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
 
     At line:1 char:1
     + tsc sample-datatypes.ts
@@ -117,8 +117,6 @@ That's it! You have successfully installed the development tools: Visual Studio 
 
     2. In the Terminal Window of Visual Studio Code, run `Set-ExecutionPolicy RemoteSigned` on PowerShell.
 
-    *This troubleshooting tip was contributed by **Fabio Gomes Sakiyama**. Thanks Fabio!!*
-
 ### Typescript: 'tsc' is not recognized as an internal or external command
 
 1. If you get the following error when executing tsc command:
@@ -130,8 +128,3 @@ That's it! You have successfully installed the development tools: Visual Studio 
 2. You can resolve this issue with the following:
 
     1. Add the npm installation folder to your "user variables" AND "environment variables"
-
-    *This troubleshooting tip was contributed by **Chris**. Thanks Chris!!*
-
----
-&copy; 2022, [luv2code LLC](http://www.luv2code.com) - All rights reserved.
